@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    place-items: center;   /* Centrar horizontal y verticalmente */
+    height: 100vh;        /* Hacer que el body ocupe toda la altura de la ventana */
+    margin: 0;            /* Eliminar márgenes por defecto */
+    background-color: #f0f0f0; /* Fondo claro */
+}
+
+.Calcuadora{
+    
+    width: 350px; /* Ancho del cuadro */
+    height: 350px; /* Alto del cuadro */
+    background-color: #bfc3c5; /* Color de fondo */
+    border: 2px solid #01060a; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+}
