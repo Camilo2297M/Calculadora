@@ -12,3 +12,17 @@ function agregar(valor) {
  const resultado = eval(valorpantalla)
  document.getElementById(`pantalla`).value = resultado;   
  }
+
+
+
+
+
+**************************************************
+    Numero aleatorio
+**************************************************
+    function numeroa(){
+    const numero = Math.random()*10
+    const redondeo = Math.round(numero)
+
+    document.getElementById(`eleatorio`).innerHTML = redondeo;
+}
